@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?language JavaScript?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox fx:id="vbox" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="144.0" prefWidth="249.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button fx:id="botao" mnemonicParsing="false" text="Button" onAction="#digaola2"/>
+      <Label fx:id="label" text="Label" />
+      <TextField fx:id="user" />
+      <PasswordField fx:id="senha" />
+  
+          <fx:script>
+              var valor= 0;
+              function minha (){
+            var usuario =user.getText();
+              label.text=usuario;
+             // if(valor){
+            //  label.text="um";
+            //  valor=0;
+            //  }else{
+            //  label.text="dois";
+            //  valor =1;
+            //  }
+              }
+              var usuario =user.getText();
+              label.text=usuario;
+         </fx:script>
+   </children>
+</VBox>           
+     

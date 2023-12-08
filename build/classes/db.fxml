@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="500.0" minHeight="200.0" minWidth="200.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="349.0" prefWidth="272.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ExempoFXML">
+   <children>
+      <TextField id="nome" fx:id="nome" alignment="CENTER" layoutX="12.0" layoutY="56.0" prefHeight="30.0" prefWidth="250.0" promptText="Nome" />
+      <Button layoutX="11.0" layoutY="178.0" mnemonicParsing="false" onAction="#tela2" prefHeight="30.0" prefWidth="250.0" text="Salvar" />
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" prefHeight="30.0" prefWidth="244.0" text="DB-TESTE">
+         <font>
+            <Font name="Arial" size="22.0" />
+         </font>
+      </Label>
+      <TextField id="sobrenome" fx:id="sobrenome" alignment="CENTER" layoutX="14.0" layoutY="95.0" prefHeight="30.0" prefWidth="250.0" promptText="Sobre nome" />
+      <PasswordField id="senha" alignment="CENTER" layoutX="12.0" layoutY="137.0" prefHeight="30.0" prefWidth="250.0" promptText="Senha" />
+      <Button layoutX="11.0" layoutY="217.0" mnemonicParsing="false" onAction="#tela3" prefHeight="30.0" prefWidth="250.0" text="Outra Tela" />
+      <Button layoutX="12.0" layoutY="258.0" mnemonicParsing="false" onAction="#Teste"   prefHeight="30.0" prefWidth="250.0" text="Somar" />
+   </children>
+</AnchorPane>
